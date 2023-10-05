@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -14,5 +14,9 @@
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  }
+  },
+  "description": "Bienvenido a mi aplicación web desarrollada con Next.js y Node.js, alojada en AWS Amplify.",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
 }
